@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #1f2833;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    width: 50%;
+    height: 40%;
+    /* background: red; */
+    margin: 5vh;
+    padding:5vh 5vh;
+}
+.length {
+    margin-top: 3vh;
+}
+label {
+    font-size: 1.2em;
+    color: white;
+}
+
+.length input{
+  width: 2.5vw;
+  height: 4vh;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: .5vw;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+
+h1 {
+    font-size: 3em;
+    /* color: #66fcf1; */
+    -webkit-text-stroke: 2px #66fcf1;
+}
+
+.password {
+    margin-top: 5vh;
+    height: 9vh;
+    width: 30vw;
+    background: white;
+    padding: 1vw;
+    border-radius: 10px;
+    /* background: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.password input {
+    width: 20vw;
+    height: 6vh;
+    padding: 2vw;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+}
+
+.password img {
+    width: 4em;
+    cursor: pointer;
+}
+
+
+button {
+    margin-top: 2vh;
+    padding: 1vh;
+    width: 12vw;
+    height: 5vh;
+    font-size: 1.2em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    background: #86C232;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+button img {
+    width: 1.2em;
+}
